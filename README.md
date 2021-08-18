@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Artifakt Sample %%RUNTIME_NAME%% App</h1>
+<h1>Artifakt Sample Ruby App</h1>
 <img src="./.github/logo.png" alt="artifakt-logo" width="100"/>
 
 **Sample Demo App by Artifakt PaaS**
