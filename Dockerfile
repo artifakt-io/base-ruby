@@ -24,4 +24,4 @@ RUN --mount=source=artifakt-custom-build-args,target=/tmp/build-args \
   if [ -f /tmp/build-args ]; then source /tmp/build-args; fi && \
   if [ -f /.artifakt/build.sh ]; then /.artifakt/build.sh; fi
 
-CMD ["ruby", "-run", "-ehttpd", ".", "-p8000"]
+CMD ["ruby", "-run", "-ehttpd", ".", "-p80"]
